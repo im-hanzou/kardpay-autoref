@@ -89,7 +89,7 @@ def save_account(email, password, account_num, total):
 def send_otp(email, password, proxy_dict, account_num, total):
     url = "https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser"
     params = {
-        'key': "AIzaSyC-MBdXFL_UCxXidKMptsSiogypdjA6e8o"
+        'key': "AIzaSyDmqZpkteihdMSDV5-VkNjgGBeLbFjGRCg"
     }
     payload = {
         "email": email,
