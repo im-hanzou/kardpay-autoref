@@ -42,11 +42,12 @@ pip install -r requirements.txt
 pip3 install -r requirements.txt
 ```
 ## Run the Bot
-- Replace the proxies ```proxies.txt``` to your own proxies, the format is like:
+- Replace the proxies ```proxies.txt``` to your own proxies, with the format example is like:
 ```bash
 http://127.0.0.1:8080
 http://user:pass@127.0.0.1:8080
 ```
+>Only http proxies supported for now
 - Windows and Termux:
 ```bash
 python main.py
